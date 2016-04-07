@@ -22,11 +22,6 @@ body{
   margin:auto;
 }
 
-.new-body{
-  background: url("barbell.jpg") no-repeat center center fixed;
-  background-size: cover;
-}
-
 .nav{
   position: relative;
   background-color: rgba(30, 33, 39, 0.5);
@@ -118,13 +113,34 @@ a {
 .exindex input{
   margin-bottom: 2em;
 }
-#calendarWeek {
-  margin: 0 auto;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
+.exlist{
+  background-color: rgba(225,225,255,0.4);
+  margin: 6%;
 }
-.calendarDay {
-    max-width:200px;
-    max-height:200px;
+.label, .cal{
+  margin-right: 4px;
+  font-size: 24px;
+}
+.drinks {
+  color: white;
+  text-decoration: none;
+  margin: 2%;
+}
+.win{
+  font-size: 30px;
+}
+#beers{
+  background-color:rgba(30, 33, 39, 0.4);
+  margin: 6%;
+}
+.calTally, #totalCalories{
+  font-size: 30px;
+}
+.calTally{
+  margin:4%;
+}
+input{
+  margin-right: 5px;
+  height: 20px;
+  width: 20px;
 }

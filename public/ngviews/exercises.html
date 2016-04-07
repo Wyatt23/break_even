@@ -1,16 +1,21 @@
+<div class="exlist">
 <div class="exname" data-ng-repeat="exercise in ExerciseIndexViewModel.exercises">
 <p>
-  <input type="checkbox" name="exercise" value="name" data-ng-model="confirmed" data-ng-change="ExerciseIndexViewModel.change(exercise.calories_burned)"><label>{{exercise.exercise_name}}</label>
+  <input type="checkbox" name="exercise" value="name" data-ng-model="confirmed" data-ng-change="ExerciseIndexViewModel.change(exercise.calories_burned)"><label class="label">{{exercise.exercise_name}}</label>
+  <span>burns</span>
 
-<span class="excal" data-calories-burned={{exercise.calories_burned}}>{{exercise.calories_burned}}</span>
+<span class="cal" data-calories-burned={{exercise.calories_burned}}>{{exercise.calories_burned}}</span><span>calories</span>
 </p>
 </div>
+</div>
 
-
-<p>Total Calories: <span id='totalCalories'>{{ExerciseIndexViewModel.totalCalories}}</span></p>
+<p>
+  <div class="calTally">Total Calories: <span class="cal" id='totalCalories'>{{ExerciseIndexViewModel.totalCalories}}</span>
+  </div>
+</p>
 
 <div id="beers">
-  <div class="drinknames" data-ng-repeat="beer in ExerciseIndexViewModel.beers">
-    {{beer.name}}, {{beer.calories}}: I can BREAK EVEN with: {{ExerciseIndexViewModel.totalCalories/beer.calories}} of these bastards!
+  <div class="drinks" data-ng-repeat="beer in ExerciseIndexViewModel.beers"><span class="label">
+    {{beer.name}}</span> has <span class="cal"> {{beer.calories}}</span>cals.  BREAK EVEN  with: <span class="wins cal">{{ExerciseIndexViewModel.totalCalories/beer.calories}}</span> of  these!
   </div>
 </div>
