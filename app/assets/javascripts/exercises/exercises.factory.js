@@ -10,6 +10,6 @@
 
   function ExerciseFactoryFunction($resource){
     console.log("I'm a factory");
-    return $resource( "http://localhost:3000/exercises/:id.json" );
+    return $resource( "/exercises/:id.json" );
     }
 }());
