@@ -113,9 +113,13 @@ a {
 .exindex input{
   margin-bottom: 2em;
 }
-.exlist{
+.exlist, .progresstxt{
+  border-radius: 3em;
   background-color: rgba(225,225,255,0.4);
   margin: 6%;
+}
+.exlist,#beers{
+  padding: 2%;
 }
 .label, .cal{
   margin-right: 4px;
@@ -132,15 +136,18 @@ a {
 #beers{
   background-color:rgba(30, 33, 39, 0.4);
   margin: 6%;
+  border-radius: 3em;
 }
-.calTally, #totalCalories{
+.calTally, #totalCalories, .explan{
   font-size: 30px;
-}
-.calTally{
   margin:4%;
 }
 input{
   margin-right: 5px;
   height: 20px;
   width: 20px;
+}
+
+.progresstxt{
+  text-align: center;
 }

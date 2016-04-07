@@ -4425,3 +4425,676 @@ Started GET "/days.json" for ::1 at 2016-04-07 11:44:53 -0400
 Processing by DaysController#index as JSON
   [1m[35mDay Load (0.6ms)[0m  SELECT "days".* FROM "days"
 Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 12:33:43 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 314ms (Views: 306.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-07 12:33:44 -0400
+
+
+Started GET "/assets/cocoon.self-6874ad698cefd21cc1119b773550f61b5c1a60396460f015222af59293affe80.js?body=1" for ::1 at 2016-04-07 12:33:44 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-07 12:33:44 -0400
+
+
+Started GET "/assets/app.self-9f9d9516287c710c3efd08ee43c6d028b7e8d884c008d6bbeb9670702960b657.js?body=1" for ::1 at 2016-04-07 12:33:44 -0400
+
+
+Started GET "/assets/exercises/exercises.self-33c0eb6ae7302794a4979b0071eb3c9efb5dacf3f8b803ea7233067afca9189b.js?body=1" for ::1 at 2016-04-07 12:33:44 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-07 12:33:44 -0400
+
+
+Started GET "/assets/application.self-2e625cbad688210bde0f942664f1a102f27d877b0e0936641327a6815dac9697.css?body=1" for ::1 at 2016-04-07 12:33:44 -0400
+
+
+Started GET "/assets/welcome.self-59f40418b452487b4216b4a4ac99026753ac379f0abe90ad53e69221e2c07c5b.css?body=1" for ::1 at 2016-04-07 12:33:44 -0400
+
+
+Started GET "/assets/days.self-93b8955832d82dfa96b3b2b95adb3cf22d8e9e53ce5c855bbb8932030b5006b0.css?body=1" for ::1 at 2016-04-07 12:33:44 -0400
+
+
+Started GET "/assets/exercises/exercises.controller.self-6d401d03f4b597b642a80f280fc9b98daec503a7f8b3099de5157ce816e36c68.js?body=1" for ::1 at 2016-04-07 12:33:44 -0400
+
+
+Started GET "/assets/exercises/exercises.factory.self-c87a27b35d961ae35382fa8d164d7340b0bbe889b28235df9b22e24cc85570d4.js?body=1" for ::1 at 2016-04-07 12:33:44 -0400
+
+
+Started GET "/assets/days/days.self-8b8270dc53f764aefc851c65ff4a217756dd114727cce6c4f7697340c343d60c.js?body=1" for ::1 at 2016-04-07 12:33:44 -0400
+
+
+Started GET "/assets/days/days.factory.self-4dfaa9d088337baf4f841f7e629653d39561c5c6cd7ab5c21dae4df1d9852d1f.js?body=1" for ::1 at 2016-04-07 12:33:44 -0400
+
+
+Started GET "/assets/days/days.controller.self-3545cf40e7843e41e6167d75c446fa942ab4f01e0a110a9c2e8a5f855436a334.js?body=1" for ::1 at 2016-04-07 12:33:44 -0400
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-07 12:33:44 -0400
+
+
+Started GET "/assets/belly-685b77f88f4d995637a52f38695140b0e217d278e255d2b39db88c59c10ff098.jpg" for ::1 at 2016-04-07 12:33:44 -0400
+
+
+Started GET "/exercises.json" for ::1 at 2016-04-07 12:33:45 -0400
+Processing by ExercisesController#index as JSON
+  [1m[35mExercise Load (3.4ms)[0m  SELECT "exercises".* FROM "exercises"  ORDER BY updated_at DESC
+Completed 200 OK in 43ms (Views: 14.5ms | ActiveRecord: 11.7ms)
+
+
+Started GET "/days.json" for ::1 at 2016-04-07 12:33:45 -0400
+Processing by DaysController#index as JSON
+  [1m[36mDay Load (1.7ms)[0m  [1mSELECT "days".* FROM "days"[0m
+Completed 200 OK in 22ms (Views: 11.5ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 12:33:50 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 73ms (Views: 71.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 12:33:55 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 27ms (Views: 26.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/app.self-9f9d9516287c710c3efd08ee43c6d028b7e8d884c008d6bbeb9670702960b657.js?body=1" for ::1 at 2016-04-07 12:33:55 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-07 12:33:55 -0400
+
+
+Started GET "/assets/cocoon.self-6874ad698cefd21cc1119b773550f61b5c1a60396460f015222af59293affe80.js?body=1" for ::1 at 2016-04-07 12:33:55 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-07 12:33:55 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-07 12:33:55 -0400
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-07 12:33:55 -0400
+
+
+Started GET "/assets/application.self-2e625cbad688210bde0f942664f1a102f27d877b0e0936641327a6815dac9697.css?body=1" for ::1 at 2016-04-07 12:33:55 -0400
+
+
+Started GET "/assets/welcome.self-59f40418b452487b4216b4a4ac99026753ac379f0abe90ad53e69221e2c07c5b.css?body=1" for ::1 at 2016-04-07 12:33:55 -0400
+
+
+Started GET "/assets/days.self-93b8955832d82dfa96b3b2b95adb3cf22d8e9e53ce5c855bbb8932030b5006b0.css?body=1" for ::1 at 2016-04-07 12:33:55 -0400
+
+
+Started GET "/assets/exercises/exercises.self-33c0eb6ae7302794a4979b0071eb3c9efb5dacf3f8b803ea7233067afca9189b.js?body=1" for ::1 at 2016-04-07 12:33:55 -0400
+
+
+Started GET "/assets/exercises/exercises.controller.self-6d401d03f4b597b642a80f280fc9b98daec503a7f8b3099de5157ce816e36c68.js?body=1" for ::1 at 2016-04-07 12:33:55 -0400
+
+
+Started GET "/assets/exercises/exercises.factory.self-c87a27b35d961ae35382fa8d164d7340b0bbe889b28235df9b22e24cc85570d4.js?body=1" for ::1 at 2016-04-07 12:33:55 -0400
+
+
+Started GET "/assets/days/days.self-8b8270dc53f764aefc851c65ff4a217756dd114727cce6c4f7697340c343d60c.js?body=1" for ::1 at 2016-04-07 12:33:55 -0400
+
+
+Started GET "/assets/days/days.factory.self-4dfaa9d088337baf4f841f7e629653d39561c5c6cd7ab5c21dae4df1d9852d1f.js?body=1" for ::1 at 2016-04-07 12:33:55 -0400
+
+
+Started GET "/assets/days/days.controller.self-3545cf40e7843e41e6167d75c446fa942ab4f01e0a110a9c2e8a5f855436a334.js?body=1" for ::1 at 2016-04-07 12:33:55 -0400
+
+
+Started GET "/days.json" for ::1 at 2016-04-07 12:34:00 -0400
+Processing by DaysController#index as JSON
+  [1m[35mDay Load (0.5ms)[0m  SELECT "days".* FROM "days"
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 12:37:59 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 87ms (Views: 86.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-44b0d1cdebb3785d5cb1db221071c6ec70a1e9195a41ed66a028988dc89b615f.css?body=1" for ::1 at 2016-04-07 12:37:59 -0400
+
+
+Started GET "/assets/app.self-9f9d9516287c710c3efd08ee43c6d028b7e8d884c008d6bbeb9670702960b657.js?body=1" for ::1 at 2016-04-07 12:37:59 -0400
+
+
+Started GET "/assets/cocoon.self-6874ad698cefd21cc1119b773550f61b5c1a60396460f015222af59293affe80.js?body=1" for ::1 at 2016-04-07 12:37:59 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-07 12:37:59 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-07 12:37:59 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-07 12:37:59 -0400
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-07 12:37:59 -0400
+
+
+Started GET "/assets/exercises/exercises.self-33c0eb6ae7302794a4979b0071eb3c9efb5dacf3f8b803ea7233067afca9189b.js?body=1" for ::1 at 2016-04-07 12:37:59 -0400
+
+
+Started GET "/assets/exercises/exercises.controller.self-6d401d03f4b597b642a80f280fc9b98daec503a7f8b3099de5157ce816e36c68.js?body=1" for ::1 at 2016-04-07 12:37:59 -0400
+
+
+Started GET "/assets/exercises/exercises.factory.self-c87a27b35d961ae35382fa8d164d7340b0bbe889b28235df9b22e24cc85570d4.js?body=1" for ::1 at 2016-04-07 12:37:59 -0400
+
+
+Started GET "/assets/days/days.self-8b8270dc53f764aefc851c65ff4a217756dd114727cce6c4f7697340c343d60c.js?body=1" for ::1 at 2016-04-07 12:37:59 -0400
+
+
+Started GET "/assets/days/days.factory.self-4dfaa9d088337baf4f841f7e629653d39561c5c6cd7ab5c21dae4df1d9852d1f.js?body=1" for ::1 at 2016-04-07 12:37:59 -0400
+
+
+Started GET "/assets/days/days.controller.self-3545cf40e7843e41e6167d75c446fa942ab4f01e0a110a9c2e8a5f855436a334.js?body=1" for ::1 at 2016-04-07 12:37:59 -0400
+
+
+Started GET "/assets/welcome.self-59f40418b452487b4216b4a4ac99026753ac379f0abe90ad53e69221e2c07c5b.css?body=1" for ::1 at 2016-04-07 12:37:59 -0400
+
+
+Started GET "/assets/days.self-93b8955832d82dfa96b3b2b95adb3cf22d8e9e53ce5c855bbb8932030b5006b0.css?body=1" for ::1 at 2016-04-07 12:37:59 -0400
+
+
+Started GET "/assets/belly-685b77f88f4d995637a52f38695140b0e217d278e255d2b39db88c59c10ff098.jpg" for ::1 at 2016-04-07 12:37:59 -0400
+
+
+Started GET "/days.json" for ::1 at 2016-04-07 12:37:59 -0400
+Processing by DaysController#index as JSON
+  [1m[36mDay Load (0.5ms)[0m  [1mSELECT "days".* FROM "days"[0m
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 12:39:55 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 28ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-07 12:39:55 -0400
+
+
+Started GET "/assets/app.self-9f9d9516287c710c3efd08ee43c6d028b7e8d884c008d6bbeb9670702960b657.js?body=1" for ::1 at 2016-04-07 12:39:55 -0400
+
+
+Started GET "/assets/cocoon.self-6874ad698cefd21cc1119b773550f61b5c1a60396460f015222af59293affe80.js?body=1" for ::1 at 2016-04-07 12:39:55 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-07 12:39:55 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-07 12:39:55 -0400
+
+
+Started GET "/assets/exercises/exercises.self-33c0eb6ae7302794a4979b0071eb3c9efb5dacf3f8b803ea7233067afca9189b.js?body=1" for ::1 at 2016-04-07 12:39:55 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-07 12:39:55 -0400
+
+
+Started GET "/assets/exercises/exercises.controller.self-6d401d03f4b597b642a80f280fc9b98daec503a7f8b3099de5157ce816e36c68.js?body=1" for ::1 at 2016-04-07 12:39:55 -0400
+
+
+Started GET "/assets/exercises/exercises.factory.self-c87a27b35d961ae35382fa8d164d7340b0bbe889b28235df9b22e24cc85570d4.js?body=1" for ::1 at 2016-04-07 12:39:55 -0400
+
+
+Started GET "/assets/days/days.self-8b8270dc53f764aefc851c65ff4a217756dd114727cce6c4f7697340c343d60c.js?body=1" for ::1 at 2016-04-07 12:39:55 -0400
+
+
+Started GET "/assets/days/days.factory.self-4dfaa9d088337baf4f841f7e629653d39561c5c6cd7ab5c21dae4df1d9852d1f.js?body=1" for ::1 at 2016-04-07 12:39:55 -0400
+
+
+Started GET "/assets/days/days.controller.self-3545cf40e7843e41e6167d75c446fa942ab4f01e0a110a9c2e8a5f855436a334.js?body=1" for ::1 at 2016-04-07 12:39:55 -0400
+
+
+Started GET "/assets/application.self-44b0d1cdebb3785d5cb1db221071c6ec70a1e9195a41ed66a028988dc89b615f.css?body=1" for ::1 at 2016-04-07 12:39:55 -0400
+
+
+Started GET "/assets/welcome.self-59f40418b452487b4216b4a4ac99026753ac379f0abe90ad53e69221e2c07c5b.css?body=1" for ::1 at 2016-04-07 12:39:55 -0400
+
+
+Started GET "/assets/days.self-93b8955832d82dfa96b3b2b95adb3cf22d8e9e53ce5c855bbb8932030b5006b0.css?body=1" for ::1 at 2016-04-07 12:39:55 -0400
+
+
+Started GET "/assets/belly-685b77f88f4d995637a52f38695140b0e217d278e255d2b39db88c59c10ff098.jpg" for ::1 at 2016-04-07 12:39:55 -0400
+
+
+Started GET "/days.json" for ::1 at 2016-04-07 12:39:55 -0400
+Processing by DaysController#index as JSON
+  [1m[35mDay Load (0.3ms)[0m  SELECT "days".* FROM "days"
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 12:40:43 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 79ms (Views: 78.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ef9a79119099c540fbb972d66cb447cf46a27f5612bd0279e581bcaebc1a4264.css?body=1" for ::1 at 2016-04-07 12:40:43 -0400
+
+
+Started GET "/assets/app.self-9f9d9516287c710c3efd08ee43c6d028b7e8d884c008d6bbeb9670702960b657.js?body=1" for ::1 at 2016-04-07 12:40:43 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-07 12:40:43 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-07 12:40:43 -0400
+
+
+Started GET "/assets/cocoon.self-6874ad698cefd21cc1119b773550f61b5c1a60396460f015222af59293affe80.js?body=1" for ::1 at 2016-04-07 12:40:43 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-07 12:40:43 -0400
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-07 12:40:43 -0400
+
+
+Started GET "/assets/exercises/exercises.self-33c0eb6ae7302794a4979b0071eb3c9efb5dacf3f8b803ea7233067afca9189b.js?body=1" for ::1 at 2016-04-07 12:40:43 -0400
+
+
+Started GET "/assets/exercises/exercises.controller.self-6d401d03f4b597b642a80f280fc9b98daec503a7f8b3099de5157ce816e36c68.js?body=1" for ::1 at 2016-04-07 12:40:43 -0400
+
+
+Started GET "/assets/exercises/exercises.factory.self-c87a27b35d961ae35382fa8d164d7340b0bbe889b28235df9b22e24cc85570d4.js?body=1" for ::1 at 2016-04-07 12:40:43 -0400
+
+
+Started GET "/assets/days/days.self-8b8270dc53f764aefc851c65ff4a217756dd114727cce6c4f7697340c343d60c.js?body=1" for ::1 at 2016-04-07 12:40:43 -0400
+
+
+Started GET "/assets/days/days.factory.self-4dfaa9d088337baf4f841f7e629653d39561c5c6cd7ab5c21dae4df1d9852d1f.js?body=1" for ::1 at 2016-04-07 12:40:43 -0400
+
+
+Started GET "/assets/days/days.controller.self-3545cf40e7843e41e6167d75c446fa942ab4f01e0a110a9c2e8a5f855436a334.js?body=1" for ::1 at 2016-04-07 12:40:43 -0400
+
+
+Started GET "/assets/welcome.self-59f40418b452487b4216b4a4ac99026753ac379f0abe90ad53e69221e2c07c5b.css?body=1" for ::1 at 2016-04-07 12:40:43 -0400
+
+
+Started GET "/assets/days.self-93b8955832d82dfa96b3b2b95adb3cf22d8e9e53ce5c855bbb8932030b5006b0.css?body=1" for ::1 at 2016-04-07 12:40:43 -0400
+
+
+Started GET "/assets/belly-685b77f88f4d995637a52f38695140b0e217d278e255d2b39db88c59c10ff098.jpg" for ::1 at 2016-04-07 12:40:43 -0400
+
+
+Started GET "/days.json" for ::1 at 2016-04-07 12:40:43 -0400
+Processing by DaysController#index as JSON
+  [1m[36mDay Load (0.4ms)[0m  [1mSELECT "days".* FROM "days"[0m
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/exercises.json" for ::1 at 2016-04-07 12:40:49 -0400
+Processing by ExercisesController#index as JSON
+  [1m[35mExercise Load (1.0ms)[0m  SELECT "exercises".* FROM "exercises"  ORDER BY updated_at DESC
+Completed 200 OK in 12ms (Views: 9.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/days.json" for ::1 at 2016-04-07 12:40:49 -0400
+Processing by DaysController#index as JSON
+  [1m[36mDay Load (0.6ms)[0m  [1mSELECT "days".* FROM "days"[0m
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 12:42:33 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 85ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-08799c36e56bf4cf25771e45c12f25e9265262f1a2693df23fe21b33610be966.css?body=1" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/assets/app.self-9f9d9516287c710c3efd08ee43c6d028b7e8d884c008d6bbeb9670702960b657.js?body=1" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/assets/cocoon.self-6874ad698cefd21cc1119b773550f61b5c1a60396460f015222af59293affe80.js?body=1" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/assets/welcome.self-59f40418b452487b4216b4a4ac99026753ac379f0abe90ad53e69221e2c07c5b.css?body=1" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/assets/exercises/exercises.self-33c0eb6ae7302794a4979b0071eb3c9efb5dacf3f8b803ea7233067afca9189b.js?body=1" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/assets/exercises/exercises.controller.self-6d401d03f4b597b642a80f280fc9b98daec503a7f8b3099de5157ce816e36c68.js?body=1" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/assets/exercises/exercises.factory.self-c87a27b35d961ae35382fa8d164d7340b0bbe889b28235df9b22e24cc85570d4.js?body=1" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/assets/days/days.self-8b8270dc53f764aefc851c65ff4a217756dd114727cce6c4f7697340c343d60c.js?body=1" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/assets/days/days.factory.self-4dfaa9d088337baf4f841f7e629653d39561c5c6cd7ab5c21dae4df1d9852d1f.js?body=1" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/assets/days/days.controller.self-3545cf40e7843e41e6167d75c446fa942ab4f01e0a110a9c2e8a5f855436a334.js?body=1" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/assets/welcome.self-59f40418b452487b4216b4a4ac99026753ac379f0abe90ad53e69221e2c07c5b.css?body=1" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/assets/days.self-93b8955832d82dfa96b3b2b95adb3cf22d8e9e53ce5c855bbb8932030b5006b0.css?body=1" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/assets/belly-685b77f88f4d995637a52f38695140b0e217d278e255d2b39db88c59c10ff098.jpg" for ::1 at 2016-04-07 12:42:33 -0400
+
+
+Started GET "/exercises.json" for ::1 at 2016-04-07 12:42:33 -0400
+Processing by ExercisesController#index as JSON
+  [1m[35mExercise Load (0.4ms)[0m  SELECT "exercises".* FROM "exercises"  ORDER BY updated_at DESC
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/days.json" for ::1 at 2016-04-07 12:42:33 -0400
+Processing by DaysController#index as JSON
+  [1m[36mDay Load (0.5ms)[0m  [1mSELECT "days".* FROM "days"[0m
+Completed 200 OK in 5ms (Views: 2.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/days.json" for ::1 at 2016-04-07 12:43:18 -0400
+Processing by DaysController#index as JSON
+  [1m[35mDay Load (0.5ms)[0m  SELECT "days".* FROM "days"
+Completed 200 OK in 4ms (Views: 2.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 12:45:00 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 95ms (Views: 94.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-45e86c0629adbbbad27d24b2658f3a7b476c871ab9c56460d5e8318f04231824.css?body=1" for ::1 at 2016-04-07 12:45:00 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-07 12:45:00 -0400
+
+
+Started GET "/assets/cocoon.self-6874ad698cefd21cc1119b773550f61b5c1a60396460f015222af59293affe80.js?body=1" for ::1 at 2016-04-07 12:45:00 -0400
+
+
+Started GET "/assets/app.self-9f9d9516287c710c3efd08ee43c6d028b7e8d884c008d6bbeb9670702960b657.js?body=1" for ::1 at 2016-04-07 12:45:00 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-07 12:45:00 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-07 12:45:00 -0400
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-07 12:45:00 -0400
+
+
+Started GET "/assets/exercises/exercises.self-33c0eb6ae7302794a4979b0071eb3c9efb5dacf3f8b803ea7233067afca9189b.js?body=1" for ::1 at 2016-04-07 12:45:00 -0400
+
+
+Started GET "/assets/exercises/exercises.controller.self-6d401d03f4b597b642a80f280fc9b98daec503a7f8b3099de5157ce816e36c68.js?body=1" for ::1 at 2016-04-07 12:45:00 -0400
+
+
+Started GET "/assets/exercises/exercises.factory.self-c87a27b35d961ae35382fa8d164d7340b0bbe889b28235df9b22e24cc85570d4.js?body=1" for ::1 at 2016-04-07 12:45:00 -0400
+
+
+Started GET "/assets/days/days.self-8b8270dc53f764aefc851c65ff4a217756dd114727cce6c4f7697340c343d60c.js?body=1" for ::1 at 2016-04-07 12:45:00 -0400
+
+
+Started GET "/assets/days/days.factory.self-4dfaa9d088337baf4f841f7e629653d39561c5c6cd7ab5c21dae4df1d9852d1f.js?body=1" for ::1 at 2016-04-07 12:45:00 -0400
+
+
+Started GET "/assets/days/days.controller.self-3545cf40e7843e41e6167d75c446fa942ab4f01e0a110a9c2e8a5f855436a334.js?body=1" for ::1 at 2016-04-07 12:45:00 -0400
+
+
+Started GET "/assets/days.self-93b8955832d82dfa96b3b2b95adb3cf22d8e9e53ce5c855bbb8932030b5006b0.css?body=1" for ::1 at 2016-04-07 12:45:00 -0400
+
+
+Started GET "/assets/welcome.self-59f40418b452487b4216b4a4ac99026753ac379f0abe90ad53e69221e2c07c5b.css?body=1" for ::1 at 2016-04-07 12:45:00 -0400
+
+
+Started GET "/assets/belly-685b77f88f4d995637a52f38695140b0e217d278e255d2b39db88c59c10ff098.jpg" for ::1 at 2016-04-07 12:45:01 -0400
+
+
+Started GET "/days.json" for ::1 at 2016-04-07 12:45:01 -0400
+Processing by DaysController#index as JSON
+  [1m[36mDay Load (0.4ms)[0m  [1mSELECT "days".* FROM "days"[0m
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/exercises.json" for ::1 at 2016-04-07 12:45:06 -0400
+Processing by ExercisesController#index as JSON
+  [1m[35mExercise Load (1.7ms)[0m  SELECT "exercises".* FROM "exercises"  ORDER BY updated_at DESC
+Completed 200 OK in 17ms (Views: 11.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/days.json" for ::1 at 2016-04-07 12:45:06 -0400
+Processing by DaysController#index as JSON
+  [1m[36mDay Load (0.5ms)[0m  [1mSELECT "days".* FROM "days"[0m
+Completed 200 OK in 5ms (Views: 3.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 12:45:47 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 81ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a8fbeb222d5b131339e7a49efa003d13d78b5a7e4b6984f9e2c4167d065863be.css?body=1" for ::1 at 2016-04-07 12:45:47 -0400
+
+
+Started GET "/assets/cocoon.self-6874ad698cefd21cc1119b773550f61b5c1a60396460f015222af59293affe80.js?body=1" for ::1 at 2016-04-07 12:45:47 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-07 12:45:47 -0400
+
+
+Started GET "/assets/app.self-9f9d9516287c710c3efd08ee43c6d028b7e8d884c008d6bbeb9670702960b657.js?body=1" for ::1 at 2016-04-07 12:45:47 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-07 12:45:47 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-07 12:45:47 -0400
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-07 12:45:47 -0400
+
+
+Started GET "/assets/exercises/exercises.self-33c0eb6ae7302794a4979b0071eb3c9efb5dacf3f8b803ea7233067afca9189b.js?body=1" for ::1 at 2016-04-07 12:45:47 -0400
+
+
+Started GET "/assets/exercises/exercises.controller.self-6d401d03f4b597b642a80f280fc9b98daec503a7f8b3099de5157ce816e36c68.js?body=1" for ::1 at 2016-04-07 12:45:47 -0400
+
+
+Started GET "/assets/exercises/exercises.factory.self-c87a27b35d961ae35382fa8d164d7340b0bbe889b28235df9b22e24cc85570d4.js?body=1" for ::1 at 2016-04-07 12:45:47 -0400
+
+
+Started GET "/assets/days/days.self-8b8270dc53f764aefc851c65ff4a217756dd114727cce6c4f7697340c343d60c.js?body=1" for ::1 at 2016-04-07 12:45:47 -0400
+
+
+Started GET "/assets/days/days.factory.self-4dfaa9d088337baf4f841f7e629653d39561c5c6cd7ab5c21dae4df1d9852d1f.js?body=1" for ::1 at 2016-04-07 12:45:47 -0400
+
+
+Started GET "/assets/days/days.controller.self-3545cf40e7843e41e6167d75c446fa942ab4f01e0a110a9c2e8a5f855436a334.js?body=1" for ::1 at 2016-04-07 12:45:47 -0400
+
+
+Started GET "/assets/welcome.self-59f40418b452487b4216b4a4ac99026753ac379f0abe90ad53e69221e2c07c5b.css?body=1" for ::1 at 2016-04-07 12:45:47 -0400
+
+
+Started GET "/assets/days.self-93b8955832d82dfa96b3b2b95adb3cf22d8e9e53ce5c855bbb8932030b5006b0.css?body=1" for ::1 at 2016-04-07 12:45:47 -0400
+
+
+Started GET "/assets/belly-685b77f88f4d995637a52f38695140b0e217d278e255d2b39db88c59c10ff098.jpg" for ::1 at 2016-04-07 12:45:47 -0400
+
+
+Started GET "/exercises.json" for ::1 at 2016-04-07 12:45:47 -0400
+Processing by ExercisesController#index as JSON
+  [1m[35mExercise Load (0.7ms)[0m  SELECT "exercises".* FROM "exercises"  ORDER BY updated_at DESC
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/days.json" for ::1 at 2016-04-07 12:45:47 -0400
+Processing by DaysController#index as JSON
+  [1m[36mDay Load (0.4ms)[0m  [1mSELECT "days".* FROM "days"[0m
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 12:46:09 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 77ms (Views: 76.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-050e4b460406fdb2bfb4d74bbd78ff70de67f9729700edb48744d6cb54c05f73.css?body=1" for ::1 at 2016-04-07 12:46:09 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-07 12:46:09 -0400
+
+
+Started GET "/assets/cocoon.self-6874ad698cefd21cc1119b773550f61b5c1a60396460f015222af59293affe80.js?body=1" for ::1 at 2016-04-07 12:46:09 -0400
+
+
+Started GET "/assets/app.self-9f9d9516287c710c3efd08ee43c6d028b7e8d884c008d6bbeb9670702960b657.js?body=1" for ::1 at 2016-04-07 12:46:09 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-07 12:46:09 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-07 12:46:09 -0400
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-07 12:46:09 -0400
+
+
+Started GET "/assets/exercises/exercises.self-33c0eb6ae7302794a4979b0071eb3c9efb5dacf3f8b803ea7233067afca9189b.js?body=1" for ::1 at 2016-04-07 12:46:09 -0400
+
+
+Started GET "/assets/exercises/exercises.controller.self-6d401d03f4b597b642a80f280fc9b98daec503a7f8b3099de5157ce816e36c68.js?body=1" for ::1 at 2016-04-07 12:46:09 -0400
+
+
+Started GET "/assets/exercises/exercises.factory.self-c87a27b35d961ae35382fa8d164d7340b0bbe889b28235df9b22e24cc85570d4.js?body=1" for ::1 at 2016-04-07 12:46:09 -0400
+
+
+Started GET "/assets/days/days.self-8b8270dc53f764aefc851c65ff4a217756dd114727cce6c4f7697340c343d60c.js?body=1" for ::1 at 2016-04-07 12:46:09 -0400
+
+
+Started GET "/assets/days/days.factory.self-4dfaa9d088337baf4f841f7e629653d39561c5c6cd7ab5c21dae4df1d9852d1f.js?body=1" for ::1 at 2016-04-07 12:46:09 -0400
+
+
+Started GET "/assets/days/days.controller.self-3545cf40e7843e41e6167d75c446fa942ab4f01e0a110a9c2e8a5f855436a334.js?body=1" for ::1 at 2016-04-07 12:46:09 -0400
+
+
+Started GET "/assets/days.self-93b8955832d82dfa96b3b2b95adb3cf22d8e9e53ce5c855bbb8932030b5006b0.css?body=1" for ::1 at 2016-04-07 12:46:10 -0400
+
+
+Started GET "/assets/welcome.self-59f40418b452487b4216b4a4ac99026753ac379f0abe90ad53e69221e2c07c5b.css?body=1" for ::1 at 2016-04-07 12:46:10 -0400
+
+
+Started GET "/assets/belly-685b77f88f4d995637a52f38695140b0e217d278e255d2b39db88c59c10ff098.jpg" for ::1 at 2016-04-07 12:46:10 -0400
+
+
+Started GET "/days.json" for ::1 at 2016-04-07 12:46:10 -0400
+Processing by DaysController#index as JSON
+  [1m[35mDay Load (0.3ms)[0m  SELECT "days".* FROM "days"
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/exercises.json" for ::1 at 2016-04-07 12:46:10 -0400
+Processing by ExercisesController#index as JSON
+  [1m[36mExercise Load (0.5ms)[0m  [1mSELECT "exercises".* FROM "exercises"  ORDER BY updated_at DESC[0m
+Completed 200 OK in 7ms (Views: 5.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2016-04-07 12:46:26 -0400
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 89ms (Views: 88.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3f14ae6677ae75930428c5de36cbfc728f4967c3e0cff5d9b4cdeab6b8313321.css?body=1" for ::1 at 2016-04-07 12:46:26 -0400
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-04-07 12:46:26 -0400
+
+
+Started GET "/assets/app.self-9f9d9516287c710c3efd08ee43c6d028b7e8d884c008d6bbeb9670702960b657.js?body=1" for ::1 at 2016-04-07 12:46:26 -0400
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-04-07 12:46:26 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-04-07 12:46:26 -0400
+
+
+Started GET "/assets/cocoon.self-6874ad698cefd21cc1119b773550f61b5c1a60396460f015222af59293affe80.js?body=1" for ::1 at 2016-04-07 12:46:26 -0400
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for ::1 at 2016-04-07 12:46:26 -0400
+
+
+Started GET "/assets/exercises/exercises.self-33c0eb6ae7302794a4979b0071eb3c9efb5dacf3f8b803ea7233067afca9189b.js?body=1" for ::1 at 2016-04-07 12:46:26 -0400
+
+
+Started GET "/assets/exercises/exercises.controller.self-6d401d03f4b597b642a80f280fc9b98daec503a7f8b3099de5157ce816e36c68.js?body=1" for ::1 at 2016-04-07 12:46:26 -0400
+
+
+Started GET "/assets/exercises/exercises.factory.self-c87a27b35d961ae35382fa8d164d7340b0bbe889b28235df9b22e24cc85570d4.js?body=1" for ::1 at 2016-04-07 12:46:26 -0400
+
+
+Started GET "/assets/days/days.self-8b8270dc53f764aefc851c65ff4a217756dd114727cce6c4f7697340c343d60c.js?body=1" for ::1 at 2016-04-07 12:46:26 -0400
+
+
+Started GET "/assets/days/days.factory.self-4dfaa9d088337baf4f841f7e629653d39561c5c6cd7ab5c21dae4df1d9852d1f.js?body=1" for ::1 at 2016-04-07 12:46:26 -0400
+
+
+Started GET "/assets/days/days.controller.self-3545cf40e7843e41e6167d75c446fa942ab4f01e0a110a9c2e8a5f855436a334.js?body=1" for ::1 at 2016-04-07 12:46:26 -0400
+
+
+Started GET "/assets/welcome.self-59f40418b452487b4216b4a4ac99026753ac379f0abe90ad53e69221e2c07c5b.css?body=1" for ::1 at 2016-04-07 12:46:26 -0400
+
+
+Started GET "/assets/days.self-93b8955832d82dfa96b3b2b95adb3cf22d8e9e53ce5c855bbb8932030b5006b0.css?body=1" for ::1 at 2016-04-07 12:46:26 -0400
+
+
+Started GET "/assets/belly-685b77f88f4d995637a52f38695140b0e217d278e255d2b39db88c59c10ff098.jpg" for ::1 at 2016-04-07 12:46:26 -0400
+
+
+Started GET "/exercises.json" for ::1 at 2016-04-07 12:46:26 -0400
+Processing by ExercisesController#index as JSON
+  [1m[35mExercise Load (0.4ms)[0m  SELECT "exercises".* FROM "exercises"  ORDER BY updated_at DESC
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/days.json" for ::1 at 2016-04-07 12:46:26 -0400
+Processing by DaysController#index as JSON
+  [1m[36mDay Load (0.5ms)[0m  [1mSELECT "days".* FROM "days"[0m
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/days.json" for ::1 at 2016-04-07 12:46:40 -0400
+Processing by DaysController#index as JSON
+  [1m[35mDay Load (1.4ms)[0m  SELECT "days".* FROM "days"
+Completed 200 OK in 7ms (Views: 3.9ms | ActiveRecord: 1.4ms)
