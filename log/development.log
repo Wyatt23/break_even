@@ -4272,3 +4272,16 @@ Started GET "/exercises.json" for ::1 at 2016-04-07 11:32:06 -0400
 Processing by ExercisesController#index as JSON
   [1m[36mExercise Load (0.6ms)[0m  [1mSELECT "exercises".* FROM "exercises"  ORDER BY updated_at DESC[0m
 Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/days.json" for ::1 at 2016-04-07 11:35:05 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by DaysController#index as JSON
+  [1m[35mDay Load (0.5ms)[0m  SELECT "days".* FROM "days"
+Completed 200 OK in 18ms (Views: 6.1ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/exercises.json" for ::1 at 2016-04-07 11:35:05 -0400
+Processing by ExercisesController#index as JSON
+  [1m[36mExercise Load (0.9ms)[0m  [1mSELECT "exercises".* FROM "exercises"  ORDER BY updated_at DESC[0m
+Completed 200 OK in 15ms (Views: 7.6ms | ActiveRecord: 2.2ms)
